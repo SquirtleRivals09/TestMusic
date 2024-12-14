@@ -7,30 +7,30 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = ("API_ID")
+API_HASH = ("API_HASH")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","The_Architect04")
+OWNER_USERNAME = ("OWNER_USERNAME")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","AmritaMusicBot")
+BOT_USERNAME = ("BOT_USERNAME")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = ("BOT_NAME")
 # ---------------------------------------------------------
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = ("MONGO_DB_URI")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002278361416))
+LOGGER_ID = ("LOGGER_ID")
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7224419362))
+OWNER_ID = ("OWNER_ID")
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -46,13 +46,13 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Marwin040/AmritaXMusic",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Team_Supporty")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/Team_Supporty")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anime_Spectrum_network")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/Ahjin_Sprt")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
