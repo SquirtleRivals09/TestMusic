@@ -7,30 +7,30 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = ("API_ID")
-API_HASH = ("API_HASH")
+API_ID = ("")
+API_HASH = ("")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("")
 # -------------------------------------------------------
-OWNER_USERNAME = ("OWNER_USERNAME")
+OWNER_USERNAME = ("")
 # --------------------------------------------------------
-BOT_USERNAME = ("BOT_USERNAME")
+BOT_USERNAME = ("")
 # --------------------------------------------------------
-BOT_NAME = ("BOT_NAME")
+BOT_NAME = ("")
 # ---------------------------------------------------------
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = ("MONGO_DB_URI")
+MONGO_DB_URI = ("")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = ("LOGGER_ID")
+LOGGER_ID = ("")
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = ("OWNER_ID")
+OWNER_ID = ("")
 
 
 # make your bots privacy from telegra.ph and put your url here 
